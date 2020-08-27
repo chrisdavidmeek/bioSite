@@ -1,12 +1,74 @@
+html {
+  margin: 0 auto;
+}
 .App {
   text-align: center;
+  margin: 0 auto;
+  padding: none;
+  line-height: 1.6;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Me {
+  height: 500px;
+  width: 100%;
+  margin: auto;
+  padding: 10px;
+  background-image: url("./components/sunset2.jpg");
+}
+.favorites {
+  background-color: gainsboro;
 }
 
+.favorites h2 {
+  padding-top: 30px;
+  margin: 0;
+}
+.favorites ul {
+  margin: 0;
+  padding: none;
+}
+.favorites li {
+  display: inline-block;
+  padding: 20px;
+  background-color: gainsboro;
+}
+.Me h1 {
+  margin-top: 25%;
+}
+
+.Me img {
+  border-radius: 50px;
+}
+.School {
+  background-color: #485240;
+  height: 250px;
+  width: 50%;
+  margin: auto;
+  padding: 10px;
+}
+.School ul {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.School h3 {
+  padding-top: 20px;
+  margin: 0;
+}
+
+.hobbyInfo {
+  width: 33%;
+  height: 100px;
+  float: left;
+}
+.Hobbies ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#past li {
+  padding: 0;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
