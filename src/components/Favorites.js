@@ -31,7 +31,7 @@ const Favorites = () => {
       <li>
         <h3>{item.type}</h3>
         <h5> {item.name}</h5>
-        <img src={item.image} alt="image" height="100px" width="auto"></img>
+        <img src={item.image} height="100px" width="auto"></img>
       </li>
     );
   });
